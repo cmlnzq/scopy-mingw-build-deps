@@ -8,7 +8,7 @@ init_staging() {
 	rm -rf $STAGING_ENV
 	mkdir -p $STAGING_ENV/var/lib/pacman/local
 	mkdir -p $STAGING_ENV/var/lib/pacman/sync
-	/usr/bin/bash.exe -c "$PACMAN -Syuu bash filesystem mintty pacman"
+	# /usr/bin/bash.exe -c "$PACMAN -Syuu bash filesystem mintty pacman"
 	fi
 }
 init_staging
